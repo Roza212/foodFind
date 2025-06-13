@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thatix-Cooking Recipe</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" />
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body class="font-[Roboto]">
+
+    <!-- Navbar -->
+    <div class="container mx-auto p-4 flex justify-center">
+        <img class="mx-auto w-30 h-10" src="../images/logo (2).png" alt="logo">
+    </div>
+
+    <!-- Banner -->
+    <div class="page-bg bg-cover bg-center h-80 w-full flex justify-center items-center font-white">
+        <div class="text-white text-center">
+            <h1 class="text-4xl font-semibold">Search Your <br> Favorite Recipe</h1>
+            <p class="font-light text-sm mt-4">A handful of simple ingredients typify the fresh, vibrant <br> flavors of Greek cooking</p>
+        </div>
+    </div>
+
+    <!-- Search Input -->
+  <div class="my-5 flex justify-center">
+    <input id="input" class="form-control border border-gray-300 md:w-[80%] lg:w-[45%] rounded-l px-4 py-1" type="text" placeholder="Search...">
+    <button id="submit" class="rounded-r bg-amber-400 px-3 text-white">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+</div>
+
+
+    <!-- Latest Recipes -->
+    <div class="container mx-auto p-4 my-5">
+        <h1 class="text-center text-5xl mb-4">Latest Recipes</h1>
+        <p id="noMeal" class="text-center text-red-600 mb-4 hidden">No meal found. Try something else.</p>
+        <div id="insertHere" class="meal-wrapper grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-6">
+            
+            <!-- Sushi -->
+            <!-- <div class="bg-white rounded-lg shadow-md overflow-hidden">
+                <img src="../images/sushi.jpg" alt="Sushi" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">Sushi</h3>
+                    <p class="text-gray-600 text-xs mb-4 leading-relaxed">STEP 1 TO MAKE SUSHI ROLLS: Pat out some rice. Lay a nori sheet on the mat, shiny-side down. Dip yo</p>
+                    <button class="bg-yellow-400 hover:bg-yellow-500 text-white text-xs font-semibold py-2 px-3 rounded transition-colors duration-200">
+                        VIEW DETAILS
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- Footer -->
+    <div class="bg-gray-700">
+        <div class="container mx-auto p-4 mt-5 flex justify-between text-white">
+            <div class="text-gray-300">
+                <p>Copyright © 2023 - All rights reserved</p>
+            </div>
+            <div class="text-2xl">
+                <i class="fa-brands fa-twitter px-2"></i>
+                <i class="fa-brands fa-youtube px-1"></i>
+                <i class="fa-brands fa-facebook-f px-2"></i>
+            </div>
+        </div>
+    </div>
+   
+
+        
+  
+
+    
+
+    
+<script src="./script.js"></script>
+ 
+</body>
+</html>

@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+
+.page-bg{
+    background-image: url("../images/page-title.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+ 
+
+
+ 
+}
